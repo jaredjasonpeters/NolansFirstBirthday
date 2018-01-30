@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 
 var app = express();
 hbs.registerPartials(__dirname + '/views/partials')
-app.set('view enginie', 'hbs');
+app.set('view engine', 'hbs');
 
 app.use(express.static(__dirname + '/public'));
 
@@ -16,6 +16,7 @@ app.use(express.static(__dirname + '/public'));
 hbs.registerHelper('screamIt', (text) => {
   return text.toUpperCase();
 });
+
 
 
 //ROUTES

@@ -1,4 +1,60 @@
 {{> head}}
-    <h2>{{screamIt welcomeMessage}}</h2>
+  <div class="logo"></div>
+  <div class="container">
+    <h2 class="fs-55 margin-auto">
+      <span id="char0">N</span>
+      <span id="char1">O</span>
+      <span id="char2">L</span>
+      <span id="char3">A</span>
+      <span id="char4">N</span>
+      <span id="char5">'</span>
+      <span id="char6">S</span>
+      <span class="charsp">l</span>
+      <span id="char8">F</span>
+      <span id="char9">I</span>
+      <span id="char10">R</span>
+      <span id="char11">S</span>
+      <span id="char12">T</span>
+      <span class="charsp">l</span>
+      <span id="char14">B</span>
+      <span id="char15">I</span>
+      <span id="char16">R</span>
+      <span id="char17">T</span>
+      <span id="char18">H</span>
+      <span id="char19">D</span>
+      <span id="char20">A</span>
+      <span id="char21">Y</span>
+      <span id="char22">!</span>
+    </h2>
+  </div>
+<div class="divider"></div>
+<div class="flex-container">
+  <div id="img-1" class="item  flex-one"></div>
+  <div id="img-2" class="item  flex-two"></div>
+  <div id="img-3" class="item  flex-one"></div>
+</div>
+<div class="divider"></div>
+<div class="flex-container">
+  <div id="img-4" class="item  flex-five"></div>
+  <div id="img-5" class="item  flex-one"></div>
+  <div id="img-6" class="item  flex-one"></div>
+</div>
+<div class="divider"></div>
+<div class="flex-container">
+  <div id="img-7" class="item  flex-one"></div>
+  <div id="img-8" class="item  flex-four"></div>
+  <div id="img-9" class="item  flex-one"></div>
+</div>
+<div class="divider"></div>
+<div class="flex-container">
+  <div id="img-10" class="item  flex-one"></div>
+  <div id="img-11" class="item  flex-one"></div>
+  <div id="img-12" class="item  flex-three"></div>
+</div>
+  <script>
+  document.querySelector(".logo").addEventListener("click", () => {
+    document.querySelector("span[id^=char]").style.WebkitAnimationPlayState = "running";
+  });
+  </script>
   </body>
 </html>

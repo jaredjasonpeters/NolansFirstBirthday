@@ -1,0 +1,456 @@
+div[id^=img] {
+  /* background-color: transparent;
+  background-blend-mode: screen; */
+  background-size: cover;
+  background-position: center;
+  transition: background-color 2s ease-in-out, filter 2s ease-in-out, opacity 1s ease-in-out, flex-grow 2s ease-in-out;
+}
+div[id^=img]:hover {
+  filter: blur(5px);
+  /* background-color: white; */
+  opacity: 0.8;
+  flex-grow: 2;
+}
+
+#img-1 {
+  background-image: url('/images/1.jpg');
+}
+#img-2 {
+  background-image: url('/images/0.1.jpg');
+}
+#img-3 {
+  background-image: url('/images/2.jpg');
+}
+#img-4 {
+  background-image: url('/images/3.jpg');
+  background-position: top;
+}
+#img-5 {
+  background-image: url('/images/4.jpg');
+}
+#img-6 {
+  background-image: url('/images/5.jpg');
+}
+#img-7 {
+  background-image: url('/images/6.jpg');
+}
+#img-8 {
+  background-image: url('/images/7.jpg');
+}
+#img-9 {
+  background-image: url('/images/8.jpg');
+}
+#img-10 {
+  background-image: url('/images/9.jpg');
+}
+#img-11 {
+  background-image: url('/images/xmas.jpg');
+}
+#img-12 {
+  background-image: url('/images/halloween.jpg');
+}
+
+
+
+.divider {
+  height: 25px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.1);
+  transition: width 2s ease-in-out, color 3s ease-in-out;
+  border-radius: 10px;
+}
+.divider {
+  background-color: #60d0E8;
+}
+
+
+
+@font-face {
+  font-family: 'Rammetto One'; src: url("/fonts/RammettoOne-Regular.ttf");
+  font-family: 'Poppins Black'; src: url("/fonts/Poppins-Black.ttf")
+}
+
+@keyframes fontgrow {
+  0% {
+    transfrom: translate(5px);
+  }
+  50%{
+    transform: translateY(-15px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+/* @keyframes slidebackandforth {
+    0% {
+      transform: translateX(0px);
+    }
+    25% {
+      transform: translateX(50px);
+    }
+    75% {
+     transform: translateX(-50px);
+    }
+    100% {
+     transform: translateX(0px);
+   }
+} */
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+
+}
+
+
+.logo {
+  height: 200px;
+  width: 100%;
+  z-index: 100;
+  background-image: url('/images/Nolan_Monogram.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform 2s ease-in-out;
+}
+
+.logo:hover {
+  transform: rotate(180deg);
+}
+
+
+body {
+  font-family: 'Rammetto One', cursive;
+  font-size: 25px;
+  /* font-family: 'Poppins Black', sans-serif; */
+  /* background-image: url('/images/binkies.jpg'); */
+  /* background-color: lightblue; */
+  background-size: contain;
+
+}
+
+span {
+  letter-spacing: -8px;
+  display: inline-block;
+  font-family: 'Poppins Black', sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  flex-basis: auto;
+  margin: 40px;
+  color: rgba(0,0,0,.15);
+  text-transform: uppercase;
+  transition: color 600ms ease-in-out;
+  font-family: 'Rammetto One', cursive;
+  font-size: 20px;
+}
+
+.link:hover {
+  color: #60d0E8;
+
+}
+
+.fs-55 {
+  font-size: 55px;
+  color: #60d0E8;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.container {
+  margin-top: -50px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  width: 100%;
+  padding: 5px;
+
+
+    )
+
+}
+
+.flex-container {
+animation-name: slidebackandforth;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+animation-timing-function: linear;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-content: space-between;
+align-items: flex-start;
+flex-flow: row wrap;
+height: 400px;
+width: 100%;
+
+}
+
+.item {
+
+  /* background-color: green; */
+  border: white solid 5px;
+  border-radius: 20px;
+  flex-basis: 0;
+  align-self: stretch;
+  align-items: stretch;
+  text-align: center;
+  padding-top: 12.5%;
+
+}
+
+.filter {
+  background-color: orange;
+  opacity: 0.5;
+  display: block;
+  position: absolute;
+}
+
+.flex-one {
+  flex-grow: 1
+}
+.flex-two {
+  flex-grow: 2
+}
+.flex-three {
+  flex-grow: 3
+}
+.flex-four {
+  flex-grow: 4
+}
+.flex-five {
+  flex-grow: 5
+}
+.flex-six {
+  flex-grow: 6
+}
+.flex-seven {
+  flex-grow: 7
+}
+.flex-eight {
+  flex-grow: 8
+}
+.flex-nine {
+  flex-grow: 9
+}
+.flex-ten {
+  flex-grow: 10
+}
+.flex-eleven {
+  flex-grow: 11
+}
+.flex-twelve {
+  flex-grow: 12
+}
+
+.charsp {
+  opacity: 0;
+}
+
+#char0 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+
+}
+
+#char1 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+  animation-delay: .1s;
+}
+
+#char2 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+  animation-delay: .2s;
+}
+#char3 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+  animation-delay: .3s;
+}
+#char4 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+  animation-delay: .4s;
+}
+#char5 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+  animation-delay: .5s;
+}
+#char6 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+  animation-delay: .6s;
+}
+#char6 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+  animation-delay: .6s;
+}
+#char8 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+  animation-delay: .8s;
+}
+#char9 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+  animation-delay: .9s;
+}
+#char10 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+  animation-delay: .10s;
+}
+#char11 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+  animation-delay: .2s;
+}
+#char12 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+  animation-delay: .3s;
+}
+#char14 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+  animation-delay: .4s;
+}
+#char15 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+  animation-delay: .5s;
+}
+#char16 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+  animation-delay: .6s;
+}
+#char17 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+  animation-delay: .7s;
+}
+#char18 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+  animation-delay: .8s;
+}
+#char19 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+  animation-delay: .9s;
+}
+#char20 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+
+  animation-delay: .20s;
+}
+#char21 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-delay: .3s;
+}
+#char22 {
+  animation-name: fontgrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+  animation-delay: .4s;
+}
+
+body {
+  cursor: url('/images/b_cursor.png'), auto;
+}
+
+span[id^=char] {
+  transition: color 2s ease-in-out;
+  animation-play-state: running;
+  animation-delay: 3s;
+}
+
+span[id^=char]:hover {
+  animation-play-state: paused;
+  color: rgba(0,0,0,0.1);
+
+}
