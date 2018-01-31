@@ -30,6 +30,20 @@ app.get('/', (req, res) => {
   });
 });
 
+app.get('/location', (req, res) => {
+  res.render('location.hbs', {
+    pageTitle: 'Location',
+    welcomeMessage: ''
+  });
+});
+
+app.get('/activities', (req, res) => {
+  res.render('activities.hbs', {
+    pageTitle: 'Activities',
+    welcomeMessage: ''
+  });
+});
+
 
 //-----------------------------------//
 

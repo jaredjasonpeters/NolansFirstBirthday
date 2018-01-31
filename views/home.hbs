@@ -1,5 +1,5 @@
 {{> head}}
-  <div class="logo"></div>
+  <div id="logo"></div>
   <div class="container">
     <h2 class="fs-55 margin-auto">
       <span id="char0">N</span>
@@ -27,34 +27,32 @@
       <span id="char22">!</span>
     </h2>
   </div>
-<div class="divider"></div>
-<div class="flex-container">
+<section class="content-wrapper">
+<img class="candle" src="/images/candle.png"/>
+<div class="flex-container top">
+  <div class="divider"></div>
   <div id="img-1" class="item  flex-one"></div>
   <div id="img-2" class="item  flex-two"></div>
   <div id="img-3" class="item  flex-one"></div>
 </div>
-<div class="divider"></div>
-<div class="flex-container">
+<div class="flex-container second">
+  <div class="divider"></div>
   <div id="img-4" class="item  flex-five"></div>
   <div id="img-5" class="item  flex-one"></div>
   <div id="img-6" class="item  flex-one"></div>
 </div>
-<div class="divider"></div>
-<div class="flex-container">
+<div class="flex-container third">
+  <div class="divider"></div>
   <div id="img-7" class="item  flex-one"></div>
   <div id="img-8" class="item  flex-four"></div>
   <div id="img-9" class="item  flex-one"></div>
 </div>
-<div class="divider"></div>
-<div class="flex-container">
+<div class="flex-container base">
+  <div class="divider"></div>
   <div id="img-10" class="item  flex-one"></div>
   <div id="img-11" class="item  flex-one"></div>
   <div id="img-12" class="item  flex-three"></div>
 </div>
-  <script>
-  document.querySelector(".logo").addEventListener("click", () => {
-    document.querySelector("span[id^=char]").style.WebkitAnimationPlayState = "running";
-  });
-  </script>
+</section>
   </body>
 </html>

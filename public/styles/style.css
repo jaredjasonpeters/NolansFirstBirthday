@@ -1,14 +1,23 @@
+
+.candle {
+  margin: auto;
+  display: block;
+  z-index: -1;
+  margin-bottom: -21px;
+  margin-top: -80px;
+}
+
 div[id^=img] {
   /* background-color: transparent;
   background-blend-mode: screen; */
   background-size: cover;
   background-position: center;
-  transition: background-color 2s ease-in-out, filter 2s ease-in-out, opacity 1s ease-in-out, flex-grow 2s ease-in-out;
+  filter: blur(.5px);
 }
 div[id^=img]:hover {
-  filter: blur(5px);
+  filter: blur(0px);
   /* background-color: white; */
-  opacity: 0.8;
+  /* opacity: 0.8; */
   flex-grow: 2;
 }
 
@@ -50,7 +59,11 @@ div[id^=img]:hover {
   background-image: url('/images/halloween.jpg');
 }
 
-
+.content-wrapper {
+  max-width: 1000px;
+  margin: auto;
+  display: block;
+}
 
 .divider {
   height: 25px;
@@ -60,8 +73,10 @@ div[id^=img]:hover {
   border-radius: 10px;
 }
 .divider {
-  background-color: #60d0E8;
+  background-color: #60B0E2;
 }
+
+
 
 
 
@@ -107,18 +122,18 @@ nav {
 }
 
 
-.logo {
+#logo {
   height: 200px;
   width: 100%;
   z-index: 100;
-  background-image: url('/images/Nolan_Monogram.jpg');
+  background-image: url('/images/Nolan-Monogram.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   transition: transform 2s ease-in-out;
 }
 
-.logo:hover {
+#logo:hover {
   transform: rotate(180deg);
 }
 
@@ -130,6 +145,9 @@ body {
   /* background-image: url('/images/binkies.jpg'); */
   /* background-color: lightblue; */
   background-size: contain;
+  background-repeat: repeat;
+  background-image: url('/images/namebg.jpg');
+  background-blend-mode: lighten; */
 
 }
 
@@ -142,7 +160,7 @@ span {
 .link {
   text-decoration: none;
   flex-basis: auto;
-  margin: 40px;
+  margin: 30px;
   color: rgba(0,0,0,.15);
   text-transform: uppercase;
   transition: color 600ms ease-in-out;
@@ -151,13 +169,13 @@ span {
 }
 
 .link:hover {
-  color: #60d0E8;
+  color: #60B0E2;
 
 }
 
 .fs-55 {
   font-size: 55px;
-  color: #60d0E8;
+  color: #60B0E2;
 }
 
 .margin-auto {
@@ -188,27 +206,45 @@ animation-iteration-count: infinite;
 animation-direction: alternate-reverse;
 animation-timing-function: linear;
 display: flex;
-flex-direction: row;
+flex-direction: column;
 justify-content: space-between;
 align-content: space-between;
-align-items: flex-start;
-flex-flow: row wrap;
-height: 400px;
+align-items: center;
+flex-flow: column wrap;
 width: 100%;
+margin:auto;
 
+}
+
+.top {
+  max-width: 300px;
+}
+.second {
+  max-width: 500px;
+}
+.third {
+  max-width: 750px;
+}
+.base {
+  max-width: 1000px;
 }
 
 .item {
 
   /* background-color: green; */
   border: white solid 5px;
-  border-radius: 20px;
-  flex-basis: 0;
+  /* border-radius: 20px; */
+  flex-basis: 50px;
   align-self: stretch;
   align-items: stretch;
   text-align: center;
-  padding-top: 12.5%;
+  padding-top: 1%;
+  transition: padding-top 1s ease-in-out, filter 1s ease-in-out;
 
+}
+
+.item:hover {
+  padding-top: 100%;
 }
 
 .filter {
@@ -445,7 +481,7 @@ body {
 
 span[id^=char] {
   transition: color 2s ease-in-out;
-  animation-play-state: running;
+  animation-play-state: paused;
   animation-delay: 3s;
 }
 
