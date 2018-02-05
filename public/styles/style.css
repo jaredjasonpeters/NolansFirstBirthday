@@ -22,7 +22,7 @@ div[id^=img]:hover {
 }
 
 #img-1 {
-  background-image: url('../images/n1.jpg');
+  background-image: url('/images/nolan.jpg');
 }
 #img-2 {
   background-image: url('../images/n0.1.jpg');
