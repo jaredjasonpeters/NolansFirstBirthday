@@ -22,41 +22,41 @@ div[id^=img]:hover {
 }
 
 #img-1 {
-  background-image: url('/images/1.jpg');
+  background-image: url('/images/n1.jpg');
 }
 #img-2 {
-  background-image: url('/images/0.1.jpg');
+  background-image: url('/images/n0.1.jpg');
 }
 #img-3 {
-  background-image: url('/images/2.jpg');
+  background-image: url('/images/n2.jpg');
 }
 #img-4 {
-  background-image: url('/images/3.jpg');
+  background-image: url('/images/n3.jpg');
   background-position: top;
 }
 #img-5 {
-  background-image: url('/images/4.jpg');
+  background-image: url('/images/n4.jpg');
 }
 #img-6 {
-  background-image: url('/images/5.jpg');
+  background-image: url('/images/n5.jpg');
 }
 #img-7 {
-  background-image: url('/images/6.jpg');
+  background-image: url('/images/n6.jpg');
 }
 #img-8 {
-  background-image: url('/images/7.jpg');
+  background-image: url('/images/n7.jpg');
 }
 #img-9 {
-  background-image: url('/images/8.jpg');
+  background-image: url('/images/n8.jpg');
 }
 #img-10 {
-  background-image: url('/images/9.jpg');
+  background-image: url('/images/n9.jpg');
 }
 #img-11 {
-  background-image: url('images/xmas.jpg');
+  background-image: url('/images/xmas.jpg');
 }
 #img-12 {
-  background-image: url('images/halloween.jpg');
+  background-image: url('/images/halloween.jpg');
 }
 
 
