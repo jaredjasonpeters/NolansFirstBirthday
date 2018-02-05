@@ -22,41 +22,41 @@ div[id^=img]:hover {
 }
 
 #img-1 {
-  background-image: url('/images/nolan.jpg');
+  background-image: url('/images/nolan.JPG');
 }
 #img-2 {
-  background-image: url('/images/n0.1.jpg');
+  background-image: url('/images/n0.1.JPG');
 }
 #img-3 {
-  background-image: url('/images/n2.jpg');
+  background-image: url('/images/n2.JPG');
 }
 #img-4 {
-  background-image: url('/images/n3.jpg');
+  background-image: url('/images/n3.JPG');
   background-position: top;
 }
 #img-5 {
-  background-image: url('/images/n4.jpg');
+  background-image: url('/images/n4.JPG');
 }
 #img-6 {
-  background-image: url('/images/n5.jpg');
+  background-image: url('/images/n5.JPG');
 }
 #img-7 {
-  background-image: url('/images/n6.jpg');
+  background-image: url('/images/n6.JPG');
 }
 #img-8 {
-  background-image: url('/images/n7.jpg');
+  background-image: url('/images/n7.JPG');
 }
 #img-9 {
-  background-image: url('/images/n8.jpg');
+  background-image: url('/images/n8.JPG');
 }
 #img-10 {
-  background-image: url('/images/n9.jpg');
+  background-image: url('/images/n9.JPG');
 }
 #img-11 {
-  background-image: url('/images/xmas.jpg');
+  background-image: url('/images/xmas.JPG');
 }
 #img-12 {
-  background-image: url('/images/halloween.jpg');
+  background-image: url('/images/halloween.JPG');
 }
 
 
@@ -144,11 +144,11 @@ body {
   font-family: 'Rammetto One', cursive;
   font-size: 25px;
   /* font-family: 'Poppins Black', sans-serif; */
-  /* background-image: url('/images/binkies.jpg'); */
+  /* background-image: url('/images/binkies.JPG'); */
   /* background-color: lightblue; */
   background-size: contain;
   background-repeat: repeat;
-  background-image: url('/images/namebg.jpg');
+  background-image: url('/images/namebg.JPG');
   background-blend-mode: lighten; */
 
 }
